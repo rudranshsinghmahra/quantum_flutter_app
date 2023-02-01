@@ -4,13 +4,11 @@ Quantum IT Innovation Flutter Assignment
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+List of all the major libraries/frameworks used
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- intl_phone_field : Used for selecting the phone country code and for entering the phone number when Sign-Up
+- http : Used for making HTTP request to remote servers. Here we have used is to fetch data from the News API.
+- firebase_auth: Used for authentication while Sign-Up and Login using Email and Password.
+- firebase_core: Used in combination with firebase_auth. Basically used to initializing the App with Firebase Services.
+- cloud_firestore: Used to upload user details to Database.
+- google_sign_in: Used to Sign In using Google Account.

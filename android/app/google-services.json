@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "638808005274",
+    "project_id": "quantum-flutter-app",
+    "storage_bucket": "quantum-flutter-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638808005274:android:453e6796bac8027b4a1d23",
+        "android_client_info": {
+          "package_name": "com.rudransh.quantum_innovation_flutter_assignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638808005274-9u3eiqb8fnf0828pnaq6sj0ifa6i53pu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rudransh.quantum_innovation_flutter_assignment",
+            "certificate_hash": "f9653b4e59bfda4433d608ca932dfc7dc73a490a"
+          }
+        },
+        {
+          "client_id": "638808005274-ntks50v5avvu2m92tomav54tg0vnclcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyF72xhGihPOsafckVRGpp6RmKe7HPhlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638808005274-ntks50v5avvu2m92tomav54tg0vnclcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

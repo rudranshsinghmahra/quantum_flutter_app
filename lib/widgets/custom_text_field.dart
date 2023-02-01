@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 
-Widget customTextField(
-    {required String labelText,
-    required TextEditingController controller,
-    required String hintText,
-    required Icon suffixIcon}) {
+Widget customTextField({
+  required String labelText,
+  required TextEditingController controller,
+  required String hintText,
+  required Icon suffixIcon,
+  required String? Function(String?)? validator,
+  required AutovalidateMode? autovalidateMode,
+}) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
@@ -17,6 +20,8 @@ Widget customTextField(
         children: [
           Expanded(
               child: TextFormField(
+            autovalidateMode: autovalidateMode,
+            validator: validator,
             controller: controller,
             decoration: InputDecoration(
               hintText: hintText,
