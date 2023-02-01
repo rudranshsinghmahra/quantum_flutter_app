@@ -12,3 +12,8 @@ List of all the major libraries/frameworks used
 - firebase_core: Used in combination with firebase_auth. Basically used to initializing the App with Firebase Services.
 - cloud_firestore: Used to upload user details to Database.
 - google_sign_in: Used to Sign In using Google Account.
+
+
+
+https://user-images.githubusercontent.com/73904502/216084761-93b46a7e-111c-48b9-bd0f-66f0747118b4.mp4
+
